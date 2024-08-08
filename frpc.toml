@@ -1,0 +1,9 @@
+serverAddr = "serverIp"
+serverPort = 7000
+
+[[proxies]]
+name = "ssName"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = ssLocalPort
+remotePort = ssRemotePort
