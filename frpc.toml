@@ -1,5 +1,7 @@
 serverAddr = "serverIp"
 serverPort = 7000
+auth.method = "token"
+auth.token = "frps_token"
 
 [[proxies]]
 name = "ssName"
